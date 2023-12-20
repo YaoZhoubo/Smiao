@@ -13,7 +13,6 @@ namespace Smiao {
 	void Application::Run() {
 		while (true)
 		{
-
 		}
 	}
 }
