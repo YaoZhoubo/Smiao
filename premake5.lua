@@ -15,7 +15,7 @@ objdir("bin-int/" .. outputdir .. "/%{prj.name}") -- 中间目录
 -- 包含的所有h和cpp文件
 files {"%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp"}
 -- 包含目录
-includedirs {"vendor/spdlog/include"}
+includedirs {"vendor/spdlog/include", "%{prj.name}/src"}
 -- 如果是window系统
 filter "system:windows"
 cppdialect "C++17"
